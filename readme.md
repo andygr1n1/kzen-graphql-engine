@@ -20,7 +20,7 @@
 -   copy dev.db inside docker root. if it is a backup, copy backup
     ```
     docker cp ./dev.sql eb03dd2d5b4e:/
-    docker cp ./backup eb03dd2d5b4e:/
+    docker cp ./backup e6517fe56448:/
     ```
 
 -   for backup, run
