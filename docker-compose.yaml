@@ -1,7 +1,7 @@
 networks:
     gold-timer-network:
         name: gold-timer-network
-        external: true
+        # external: true
 services:
     postgres:
         image: postgres:14.7
